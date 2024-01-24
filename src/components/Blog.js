@@ -18,7 +18,10 @@ function Blog() {
       <div className="sidebar">
         <Sidebar
           collapsed={collapsed}
-          style={{ height: "100%", backgroundColor: "white" }}
+          style={{
+            height: collapsed ? "5%" : "100%",
+            backgroundColor: "white",
+          }}
         >
           <Menu>
             <div className="btnn">
@@ -26,7 +29,13 @@ function Blog() {
                 {collapsed ? <ArrowBackIosNewIcon /> : <ArrowForwardIosIcon />}
               </button>
             </div>
-            <MenuItem>Corona virus vaccine</MenuItem>
+            {collapsed ? (
+              ""
+            ) : (
+              <div>
+                <MenuItem>Corona virus vaccine</MenuItem>
+              </div>
+            )}
           </Menu>
         </Sidebar>
       </div>
@@ -34,8 +43,8 @@ function Blog() {
         <div className="blogger_image">
           <img src={Blogger} alt="ottih" />
           <h3>Ottih Nneoma Jennifer</h3>
-              </div>
-              <h5>Papiloma Vaccines</h5>
+        </div>
+        <h5>Papiloma Vaccines</h5>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, eaque
           tempora atque nobis quos ab provident pariatur et neque architecto

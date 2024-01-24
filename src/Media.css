@@ -5,7 +5,7 @@
 
   .language small,
   .con p {
-    display: none;
+    display: block;
   }
 
   .language {

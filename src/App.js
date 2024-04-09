@@ -8,7 +8,6 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Board from "./pages/Board";
 import Events from "./pages/Events";
-import Blogs from "./pages/Blogs";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import MailLogin from "./pages/MailLogin";
@@ -29,7 +28,6 @@ function App() {
             <Route path="/board" exact element={<Board />} />
             <Route path="/events" exact element={<Events />} />
             <Route path="/events/:event" exact element={<Event />} />
-            <Route path="/blogs" exact element={<Blogs />} />
             <Route path="/login" exact element={<Login />} />
             <Route path="/login/:mail" exact element={<MailLogin />} />
             <Route path="/signup" exact element={<Signup />} />

@@ -57,7 +57,7 @@ const Slide = () => {
             id="navbarSupportedContent"
             style={{ backgroundColor: navBg && "white" }}
           >
-            <div style={{ width: "10rem" }}></div>
+            <div style={{ width: "5rem" }}></div>
             <ul class="navbar-nav me-auto">
               <li class="nav-item me-3 me-lg-0">
                 <a
@@ -122,21 +122,6 @@ const Slide = () => {
               <li class="nav-item me-3 me-lg-0">
                 <a
                   class="nav-link"
-                  href="/blogs"
-                  style={{
-                    color: "#0d47a1",
-                    margin: "0px 1rem",
-                    textShadow: navBg ? "none" : "0.5px 1px 0px white",
-                    fontSize: "1.2rem",
-                    fontWeight: "bold",
-                  }}
-                >
-                  Blogs
-                </a>
-              </li>
-              <li class="nav-item me-3 me-lg-0">
-                <a
-                  class="nav-link"
                   href="/contact"
                   style={{
                     color: "#0d47a1",
@@ -164,8 +149,8 @@ const Slide = () => {
                   Board
                 </a>
               </li>
-              {/* <div className="liner"></div>
-              <li class="nav-item me-3 me-lg-0">
+              <div className="liner"></div>
+              {/* <li class="nav-item me-3 me-lg-0">
                 <a
                   class="nav-link"
                   href="login"
@@ -186,27 +171,17 @@ const Slide = () => {
                   ></i>
                   Log in
                 </a>
-              </li>
+              </li> */}
               <li class="nav-item me-3 me-lg-0">
                 <a
                   class="nav-link"
-                  href="signup"
-                  style={{
-                    color: "white",
-                    margin: "0px 0.5rem",
-                    background: "rgba(0,0,0,0.1)",
-                    border: "0.8px solid grey",
-                    width: "7rem",
-                    height: "2.5rem",
-                    borderRadius: "2rem",
-                    textAlign: "center",
-                    textShadow: "1px 1px 1px black",
-                  }}
+                  href="/signup"
+                  className="sign_up"
                 >
                   Sign up
                 </a>
               </li>
-              <li></li> */}
+              <li></li>
             </ul>
           </div>
         </div>
@@ -245,21 +220,17 @@ const Slide = () => {
               <div className="content">
                 <div className="con">
                   <h1>Welcome to AfriVacx</h1>
-                  <p>
-                    Bridging the gap, saving lifes
-                  </p>
+                  <p>Bridging the gap, saving lifes</p>
                 </div>
-                {/* <div className="tent">
+                <div className="tent">
                   <button className="btn">
                     <FontAwesomeIcon
                       icon={faScroll}
                       style={{ marginRight: "0.5rem" }}
                     />
-                    <a href="/login" style={{ color: "white" }}>
-                      Start Trading
-                    </a>
+                    <a href="/signup">Join us now</a>
                   </button>
-                </div> */}
+                </div>
               </div>
             </div>
             <div className="slide2">
@@ -285,23 +256,22 @@ const Slide = () => {
               </div> */}
               <div className="content">
                 <div className="con">
-                  <h1>Multi-regulated Global Forex and Shares Broker </h1>
+                  <h1>Empowering Communities Through Vaccination</h1>
                   <p>
-                    A trusted destination for traders worldwide, with
-                    multi-lingual support 24/5.
+                    At AfriVacx, we believe in empowering communities through
+                    vaccination, education, and sustainable solutions that
+                    address the root causes of vaccine inequity.
                   </p>
                 </div>
-                {/* <div className="tent">
+                <div className="tent">
                   <button className="btn">
                     <FontAwesomeIcon
                       icon={faScroll}
                       style={{ marginRight: "0.5rem" }}
                     />
-                    <a href="/login" style={{ color: "white" }}>
-                      Start Trading
-                    </a>
+                    <a href="/signup">Join us now</a>
                   </button>
-                </div> */}
+                </div>
               </div>
             </div>
             <div className="slide3">
@@ -327,23 +297,23 @@ const Slide = () => {
               </div> */}
               <div className="content">
                 <div className="con">
-                  <h1>Your First Steps into the Financial Markets </h1>
+                  <h1>Partner With Us to Make a Difference</h1>
                   <p>
-                    A range of cutting-edge educational tools designed to
-                    develop your trading skills of the financial markets.
+                    Join us in our mission to make a difference by partnering
+                    with AfriVacx. Together, we can amplify our impact and
+                    create positive change that will benefit generations to
+                    come.
                   </p>
                 </div>
-                {/* <div className="tent">
+                <div className="tent">
                   <button className="btn">
                     <FontAwesomeIcon
                       icon={faScroll}
                       style={{ marginRight: "0.5rem" }}
                     />
-                    <a href="/login" style={{ color: "white" }}>
-                      Start Trading
-                    </a>
+                    <a href="/signup">Join us now</a>
                   </button>
-                </div> */}
+                </div>
               </div>
             </div>
           </Carousel>

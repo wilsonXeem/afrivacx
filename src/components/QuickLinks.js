@@ -54,7 +54,7 @@ const QuickLinks = () => {
             association of HIV professionals.
           </p>
           <div className="button_2">
-            <a href="#">
+            <a href="/signup">
               <button>Sign up now</button> <EastIcon />
             </a>
           </div>
@@ -85,7 +85,6 @@ const QuickLinks = () => {
           <a href="/vaccines">Vaccines</a>
           <a href="/about">About</a>
           <a href="/events">Events</a>
-          <a href="/blogs">Blogs</a>
           <a href="/board">Board</a>
           <a href="/contact">Contact</a>
         </div>

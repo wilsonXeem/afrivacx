@@ -16,10 +16,24 @@ const Home = () => {
       <Slide />
       <div className="home_body">
         <Intro />
-        <Video />
         <Info />
+        <Video />
         <Board members={boardData} title="Meet the Afrivacx Board" />
         <OurEvents />
+        <div className="join_u">
+          <div className="join">
+            <h2>Partner With Us</h2>
+            <div>
+              <p>
+                Are you ready to join us in our mission to bridge the gap and
+                save lives? Partner with AfriVacx today and be a part of
+                something truly transformative. Together, we can build a
+                healthier, more equitable future for all.
+              </p>
+              <button className="sign_up">Join now!</button>
+            </div>
+          </div>
+        </div>
       </div>
       <QuickLinks />
       <Footer />

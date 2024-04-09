@@ -44,7 +44,7 @@ const About = () => {
                 setDetail6(false);
               }}
             >
-              <p>About us</p>
+              <p>Partnership</p>
             </div>
             <div
               className={detail3 ? "selected_tab" : "ta"}
@@ -66,6 +66,8 @@ const About = () => {
                 setDetail2(false);
                 setDetail3(false);
                 setDetail4(true);
+                setDetail5(false);
+                setDetail6(false);
               }}
             >
               <p>Mission</p>
@@ -103,85 +105,96 @@ const About = () => {
             <h3>Background</h3>
             <div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                dolorum, quas vel commodi accusantium accusamus aspernatur
-                distinctio tempore, rerum eius laboriosam eligendi quam
-                excepturi maxime facilis ab ullam, dolorem est ipsam.
-                Reprehenderit, aliquid sit dolores laboriosam accusantium
-                praesentium enim accusamus, vero culpa nulla mollitia, natus
-                dignissimos architecto doloremque exercitationem. Praesentium
-                nisi odit voluptatum nesciunt eos reprehenderit, soluta quam
-                nulla. Odio voluptatibus reiciendis omnis natus rerum assumenda
-                quam beatae deleniti non, aut, modi incidunt cum nihil similique
-                nulla. Hic similique corrupti magni quos veritatis ut aut
-                voluptatibus reprehenderit dolorum ipsa sapiente, esse
-                accusantium! Alias cum libero dolore quas repudiandae fugit
-                eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Magnam molestias praesentium molestiae similique harum
-                laboriosam doloribus expedita sunt distinctio quidem provident
-                debitis asperiores sapiente commodi maxime facilis ea magni
-                delectus non dicta vel, necessitatibus fugit! Deserunt ut
-                delectus quidem earum modi molestiae fuga incidunt, asperiores,
-                maxime, laboriosam vitae culpa placeat.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatum quidem vel aspernatur voluptate blanditiis ad dolor
-                debitis similique nihil ab, nulla adipisci ratione, nesciunt
-                pariatur ullam neque molestias eveniet eum sapiente, officiis
-                eligendi. Quidem nesciunt tenetur nisi tempora sit recusandae
-                laudantium voluptas, veniam quos. Cumque, odio! Modi aliquam
-                doloribus reiciendis excepturi rerum unde consectetur dolor
-                deleniti obcaecati. Quo natus illo tempore rem sit distinctio,
-                esse dolorem voluptatem est obcaecati voluptatibus repudiandae,
-                maxime pariatur corrupti, cum minus eligendi corporis doloremque
-                cupiditate incidunt. Hic iure tempora repellendus dolorem
-                laborum deserunt delectus beatae quibusdam minima, minus
-                pariatur nobis laboriosam dignissimos a quis accusamus!
+                As in other developing countries, Nigeria faces the problem of
+                zero dose population as a result of factors which include;
+                inadequate knowledge on immunization, distance to access point,
+                financial deprivation, and distrust in vaccines and immunization
+                programs. With this issue bearing down on Nigeria, the founder
+                and board of executives determine to contribute meaningfully
+                towards eradicating zero dose population in Nigeria is people
+                who have never had a vaccination. AfriVacx Health Aid Foundation
+                is the brainchild of Pharmacist Okeke, Bethel Ikenna (IM, CSCA).
+                The establishment of the foundation in October, 2023 is to
+                contribute towards achieving vaccine equity and promoting
+                awareness of the availability and benefits of vaccines in
+                Nigeria.
               </p>
             </div>
           </div>
         )}
         {detail2 && (
           <div className="about_body">
-            <h3>About us</h3>
+            <h3>Why partner with us</h3>
             <div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                dolorum, quas vel commodi accusantium accusamus aspernatur
-                distinctio tempore, rerum eius laboriosam eligendi quam
-                excepturi maxime facilis ab ullam, dolorem est ipsam.
-                Reprehenderit, aliquid sit dolores laboriosam accusantium
-                praesentium enim accusamus, vero culpa nulla mollitia, natus
-                dignissimos architecto doloremque exercitationem. Praesentium
-                nisi odit voluptatum nesciunt eos reprehenderit, soluta quam
-                nulla. Odio voluptatibus reiciendis omnis natus rerum assumenda
-                quam beatae deleniti non, aut, modi incidunt cum nihil similique
-                nulla. Hic similique corrupti magni quos veritatis ut aut
-                voluptatibus reprehenderit dolorum ipsa sapiente, esse
-                accusantium! Alias cum libero dolore quas repudiandae fugit
-                eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Magnam molestias praesentium molestiae similique harum
-                laboriosam doloribus expedita sunt distinctio quidem provident
-                debitis asperiores sapiente commodi maxime facilis ea magni
-                delectus non dicta vel, necessitatibus fugit! Deserunt ut
-                delectus quidem earum modi molestiae fuga incidunt, asperiores,
-                maxime, laboriosam vitae culpa placeat.
+                At Afrivacx, we are more than a vaccination NGO; we are the
+                architects of a healthier and resilient world. Collaborating
+                with us means joining forces with a passionate and
+                purpose-driven organization dedicated to advancing global health
+                through widespread immunization.
+              </p>
+              <h6>Impactful Community Outreach:</h6>
+              <p>
+                Partnering with Afrivacx allows your organization to actively
+                participate in impactful community outreach initiatives. Our
+                vaccination programs reach the most vulnerable populations,
+                ensuring that essential immunization services are accessible to
+                all, regardless of geographical or socio-economic barriers.
+              </p>
+              <h6>Expertise and Innovation:</h6>
+              <p>
+                Afrivacx stands at the forefront of innovation and expertise in
+                the field of vaccinations. By joining forces with us, you tap
+                into a wealth of knowledge, cutting-edge research, and best
+                practices. Together, we can explore new strategies to enhance
+                immunization coverage and address emerging health challenges.
+              </p>
+              <h6>Corporate Social Responsibility (CSR):</h6>
+              <p>
+                Demonstrate your commitment to corporate social responsibility
+                by aligning with Afrivacx. Your partnership supports sustainable
+                and impactful health interventions, showcasing your dedication
+                to making a positive difference in the communities where you
+                operate.
+              </p>
+              <h6>Global Health Advocacy:</h6>
+              <p>
+                As a partner, you become a champion for global health advocacy.
+                Afrivacx actively engages in promoting the importance of
+                vaccinations on a global scale. Your collaboration amplifies the
+                message, driving awareness and fostering a culture of health and
+                well-being worldwide.
+              </p>
+              <h6>Networking and Collaboration Opportunities:</h6>
+              <p>
+                Connect with like-minded organizations, experts, and influencers
+                in the healthcare sector through our extensive network. Afrivacx
+                provides a platform for meaningful collaborations, allowing your
+                organization to share insights, resources, and experiences to
+                collectively address health challenges.
+              </p>
+              <h6>Tailored Partnership Solutions:</h6>
+              <p>
+                We understand that every partner is unique. Afrivacx offers
+                flexible and tailored partnership solutions to meet your
+                specific goals and objectives. Whether through joint
+                initiatives, co-branded campaigns, or customized projects, we
+                work closely with you to ensure a mutually beneficial
+                collaboration.
+              </p>
+              <h6>Measurable and Transparent Impact:</h6>
+              <p>
+                At Afrivacx, we believe in transparency and accountability.
+                Partnering with us means having access to detailed reports and
+                metrics that showcase the tangible impact of your contribution.
+                See firsthand how your support directly translates into lives
+                saved and communities strengthened.
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatum quidem vel aspernatur voluptate blanditiis ad dolor
-                debitis similique nihil ab, nulla adipisci ratione, nesciunt
-                pariatur ullam neque molestias eveniet eum sapiente, officiis
-                eligendi. Quidem nesciunt tenetur nisi tempora sit recusandae
-                laudantium voluptas, veniam quos. Cumque, odio! Modi aliquam
-                doloribus reiciendis excepturi rerum unde consectetur dolor
-                deleniti obcaecati. Quo natus illo tempore rem sit distinctio,
-                esse dolorem voluptatem est obcaecati voluptatibus repudiandae,
-                maxime pariatur corrupti, cum minus eligendi corporis doloremque
-                cupiditate incidunt. Hic iure tempora repellendus dolorem
-                laborum deserunt delectus beatae quibusdam minima, minus
-                pariatur nobis laboriosam dignissimos a quis accusamus!
+                Partnering with Afrivacx is not just a collaboration; it's a
+                shared commitment to building a healthier, more resilient
+                future. Together, let's make a lasting impact on global health
+                and well-being.
               </p>
             </div>
           </div>
@@ -191,41 +204,10 @@ const About = () => {
             <h3>Vision</h3>
             <div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                dolorum, quas vel commodi accusantium accusamus aspernatur
-                distinctio tempore, rerum eius laboriosam eligendi quam
-                excepturi maxime facilis ab ullam, dolorem est ipsam.
-                Reprehenderit, aliquid sit dolores laboriosam accusantium
-                praesentium enim accusamus, vero culpa nulla mollitia, natus
-                dignissimos architecto doloremque exercitationem. Praesentium
-                nisi odit voluptatum nesciunt eos reprehenderit, soluta quam
-                nulla. Odio voluptatibus reiciendis omnis natus rerum assumenda
-                quam beatae deleniti non, aut, modi incidunt cum nihil similique
-                nulla. Hic similique corrupti magni quos veritatis ut aut
-                voluptatibus reprehenderit dolorum ipsa sapiente, esse
-                accusantium! Alias cum libero dolore quas repudiandae fugit
-                eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Magnam molestias praesentium molestiae similique harum
-                laboriosam doloribus expedita sunt distinctio quidem provident
-                debitis asperiores sapiente commodi maxime facilis ea magni
-                delectus non dicta vel, necessitatibus fugit! Deserunt ut
-                delectus quidem earum modi molestiae fuga incidunt, asperiores,
-                maxime, laboriosam vitae culpa placeat.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatum quidem vel aspernatur voluptate blanditiis ad dolor
-                debitis similique nihil ab, nulla adipisci ratione, nesciunt
-                pariatur ullam neque molestias eveniet eum sapiente, officiis
-                eligendi. Quidem nesciunt tenetur nisi tempora sit recusandae
-                laudantium voluptas, veniam quos. Cumque, odio! Modi aliquam
-                doloribus reiciendis excepturi rerum unde consectetur dolor
-                deleniti obcaecati. Quo natus illo tempore rem sit distinctio,
-                esse dolorem voluptatem est obcaecati voluptatibus repudiandae,
-                maxime pariatur corrupti, cum minus eligendi corporis doloremque
-                cupiditate incidunt. Hic iure tempora repellendus dolorem
-                laborum deserunt delectus beatae quibusdam minima, minus
-                pariatur nobis laboriosam dignissimos a quis accusamus!
+                Our vision is a healthier, more resilient Africa where
+                preventable diseases are eradicated through equitable vaccine
+                distribution and comprehensive public awareness, fostering a
+                brighter future for all communities.
               </p>
             </div>
           </div>
@@ -235,41 +217,11 @@ const About = () => {
             <h3>Mission</h3>
             <div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                dolorum, quas vel commodi accusantium accusamus aspernatur
-                distinctio tempore, rerum eius laboriosam eligendi quam
-                excepturi maxime facilis ab ullam, dolorem est ipsam.
-                Reprehenderit, aliquid sit dolores laboriosam accusantium
-                praesentium enim accusamus, vero culpa nulla mollitia, natus
-                dignissimos architecto doloremque exercitationem. Praesentium
-                nisi odit voluptatum nesciunt eos reprehenderit, soluta quam
-                nulla. Odio voluptatibus reiciendis omnis natus rerum assumenda
-                quam beatae deleniti non, aut, modi incidunt cum nihil similique
-                nulla. Hic similique corrupti magni quos veritatis ut aut
-                voluptatibus reprehenderit dolorum ipsa sapiente, esse
-                accusantium! Alias cum libero dolore quas repudiandae fugit
-                eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Magnam molestias praesentium molestiae similique harum
-                laboriosam doloribus expedita sunt distinctio quidem provident
-                debitis asperiores sapiente commodi maxime facilis ea magni
-                delectus non dicta vel, necessitatibus fugit! Deserunt ut
-                delectus quidem earum modi molestiae fuga incidunt, asperiores,
-                maxime, laboriosam vitae culpa placeat.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatum quidem vel aspernatur voluptate blanditiis ad dolor
-                debitis similique nihil ab, nulla adipisci ratione, nesciunt
-                pariatur ullam neque molestias eveniet eum sapiente, officiis
-                eligendi. Quidem nesciunt tenetur nisi tempora sit recusandae
-                laudantium voluptas, veniam quos. Cumque, odio! Modi aliquam
-                doloribus reiciendis excepturi rerum unde consectetur dolor
-                deleniti obcaecati. Quo natus illo tempore rem sit distinctio,
-                esse dolorem voluptatem est obcaecati voluptatibus repudiandae,
-                maxime pariatur corrupti, cum minus eligendi corporis doloremque
-                cupiditate incidunt. Hic iure tempora repellendus dolorem
-                laborum deserunt delectus beatae quibusdam minima, minus
-                pariatur nobis laboriosam dignissimos a quis accusamus!
+                AfriVacx is dedicated to enhancing vaccine access, promoting
+                equity, driving advocacy, and raising awareness to improve
+                immunization rates across Africa. Our mission is to ensure that
+                every individual, regardless of their socioeconomic background
+                or geographic location, has access to life-saving vaccines.
               </p>
             </div>
           </div>
@@ -279,41 +231,20 @@ const About = () => {
             <h3>Who we are</h3>
             <div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                dolorum, quas vel commodi accusantium accusamus aspernatur
-                distinctio tempore, rerum eius laboriosam eligendi quam
-                excepturi maxime facilis ab ullam, dolorem est ipsam.
-                Reprehenderit, aliquid sit dolores laboriosam accusantium
-                praesentium enim accusamus, vero culpa nulla mollitia, natus
-                dignissimos architecto doloremque exercitationem. Praesentium
-                nisi odit voluptatum nesciunt eos reprehenderit, soluta quam
-                nulla. Odio voluptatibus reiciendis omnis natus rerum assumenda
-                quam beatae deleniti non, aut, modi incidunt cum nihil similique
-                nulla. Hic similique corrupti magni quos veritatis ut aut
-                voluptatibus reprehenderit dolorum ipsa sapiente, esse
-                accusantium! Alias cum libero dolore quas repudiandae fugit
-                eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Magnam molestias praesentium molestiae similique harum
-                laboriosam doloribus expedita sunt distinctio quidem provident
-                debitis asperiores sapiente commodi maxime facilis ea magni
-                delectus non dicta vel, necessitatibus fugit! Deserunt ut
-                delectus quidem earum modi molestiae fuga incidunt, asperiores,
-                maxime, laboriosam vitae culpa placeat.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatum quidem vel aspernatur voluptate blanditiis ad dolor
-                debitis similique nihil ab, nulla adipisci ratione, nesciunt
-                pariatur ullam neque molestias eveniet eum sapiente, officiis
-                eligendi. Quidem nesciunt tenetur nisi tempora sit recusandae
-                laudantium voluptas, veniam quos. Cumque, odio! Modi aliquam
-                doloribus reiciendis excepturi rerum unde consectetur dolor
-                deleniti obcaecati. Quo natus illo tempore rem sit distinctio,
-                esse dolorem voluptatem est obcaecati voluptatibus repudiandae,
-                maxime pariatur corrupti, cum minus eligendi corporis doloremque
-                cupiditate incidunt. Hic iure tempora repellendus dolorem
-                laborum deserunt delectus beatae quibusdam minima, minus
-                pariatur nobis laboriosam dignissimos a quis accusamus!
+                At AfriVacx , We are passionate advocates for global health and
+                immunization. Founded with the mission to ensure that every
+                individual, regardless of their socioeconomic or geographical
+                location, has access to life saving vaccines. We believe in the
+                power of vaccination to protect communities and save lives.{" "}
+                <br /> With a dedicated team of healthcare professionals,
+                researchers, and advocates, we work tirelessly to promote
+                vaccination awareness, advocate for vaccine equity, and support
+                immunization programs worldwide. <br /> Our commitment to public
+                health drives everything we do. From empowering communities with
+                vaccine education to partnering with organizations to strengthen
+                immunization infrastructure, we are dedicated to making a
+                tangible impact on global health outcomes. <br /> Join us in our
+                mission to build a healthier, safer future for all.
               </p>
             </div>
           </div>
@@ -322,43 +253,50 @@ const About = () => {
           <div className="about_body">
             <h3>What we do</h3>
             <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                dolorum, quas vel commodi accusantium accusamus aspernatur
-                distinctio tempore, rerum eius laboriosam eligendi quam
-                excepturi maxime facilis ab ullam, dolorem est ipsam.
-                Reprehenderit, aliquid sit dolores laboriosam accusantium
-                praesentium enim accusamus, vero culpa nulla mollitia, natus
-                dignissimos architecto doloremque exercitationem. Praesentium
-                nisi odit voluptatum nesciunt eos reprehenderit, soluta quam
-                nulla. Odio voluptatibus reiciendis omnis natus rerum assumenda
-                quam beatae deleniti non, aut, modi incidunt cum nihil similique
-                nulla. Hic similique corrupti magni quos veritatis ut aut
-                voluptatibus reprehenderit dolorum ipsa sapiente, esse
-                accusantium! Alias cum libero dolore quas repudiandae fugit
-                eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Magnam molestias praesentium molestiae similique harum
-                laboriosam doloribus expedita sunt distinctio quidem provident
-                debitis asperiores sapiente commodi maxime facilis ea magni
-                delectus non dicta vel, necessitatibus fugit! Deserunt ut
-                delectus quidem earum modi molestiae fuga incidunt, asperiores,
-                maxime, laboriosam vitae culpa placeat.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatum quidem vel aspernatur voluptate blanditiis ad dolor
-                debitis similique nihil ab, nulla adipisci ratione, nesciunt
-                pariatur ullam neque molestias eveniet eum sapiente, officiis
-                eligendi. Quidem nesciunt tenetur nisi tempora sit recusandae
-                laudantium voluptas, veniam quos. Cumque, odio! Modi aliquam
-                doloribus reiciendis excepturi rerum unde consectetur dolor
-                deleniti obcaecati. Quo natus illo tempore rem sit distinctio,
-                esse dolorem voluptatem est obcaecati voluptatibus repudiandae,
-                maxime pariatur corrupti, cum minus eligendi corporis doloremque
-                cupiditate incidunt. Hic iure tempora repellendus dolorem
-                laborum deserunt delectus beatae quibusdam minima, minus
-                pariatur nobis laboriosam dignissimos a quis accusamus!
-              </p>
+              <ul>
+                <li>
+                  We ensure equitable access to life-saving vaccines across
+                  Africa.
+                </li>
+                <li>
+                  We advocate for equitable distribution of vaccines, regardless
+                  of background or location.
+                </li>
+                <li>
+                  Through targeted education campaigns and use of social media,
+                  we increase awareness about the importance of vaccination.
+                </li>
+                <li>
+                  We Increase vaccine coverage rates in underserved regions.
+                </li>
+                <li>
+                  We work towards eradicating preventable diseases through
+                  comprehensive immunization programs.
+                </li>
+                <li>
+                  We collaborate with local communities, healthcare
+                  organizations, Non-governmental Organisations (NGOs) and
+                  government agencies to enhance vaccine distribution networks.
+                </li>
+                <li>
+                  We conduct research to assess vaccine perception, identify
+                  barriers to vaccine access and acceptance and provide
+                  innovative solutions.
+                </li>
+                <li>
+                  We provide training and support to healthcare professionals to
+                  strengthen vaccination services.
+                </li>
+                <li>
+                  We engage in partnerships and alliances with international
+                  organizations to amplify our impact and extend our reach.
+                </li>
+                <li>
+                  We routinely measure and evaluate the effectiveness of our
+                  initiatives to continuously improve our efforts in bridging
+                  vaccine gaps across Africa.
+                </li>
+              </ul>
             </div>
           </div>
         )}

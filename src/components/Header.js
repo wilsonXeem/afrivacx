@@ -56,7 +56,7 @@ const Header = ({ title, a }) => {
             id="navbarSupportedContent"
             style={{ backgroundColor: navBg && "white" }}
           >
-            <div style={{ width: "10rem" }}></div>
+            <div style={{ width: "5rem" }}></div>
             <ul class="navbar-nav me-auto">
               <li class="nav-item me-3 me-lg-0">
                 <a
@@ -121,21 +121,6 @@ const Header = ({ title, a }) => {
               <li class="nav-item me-3 me-lg-0">
                 <a
                   class="nav-link"
-                  href="/blogs"
-                  style={{
-                    color: "#0d47a1",
-                    margin: "0px 1rem",
-                    textShadow: navBg ? "none" : "0.5px 1px 0px white",
-                    fontSize: "1.2rem",
-                    fontWeight: "bold",
-                  }}
-                >
-                  Blogs
-                </a>
-              </li>
-              <li class="nav-item me-3 me-lg-0">
-                <a
-                  class="nav-link"
                   href="/contact"
                   style={{
                     color: "#0d47a1",
@@ -163,8 +148,8 @@ const Header = ({ title, a }) => {
                   Board
                 </a>
               </li>
-              {/* <div className="liner"></div>
-              <li class="nav-item me-3 me-lg-0">
+              <div className="liner"></div>
+              {/* <li class="nav-item me-3 me-lg-0">
                 <a
                   class="nav-link"
                   href="login"
@@ -185,27 +170,17 @@ const Header = ({ title, a }) => {
                   ></i>
                   Log in
                 </a>
-              </li>
+              </li> */}
               <li class="nav-item me-3 me-lg-0">
                 <a
                   class="nav-link"
                   href="signup"
-                  style={{
-                    color: "white",
-                    margin: "0px 0.5rem",
-                    background: "rgba(0,0,0,0.1)",
-                    border: "0.8px solid grey",
-                    width: "7rem",
-                    height: "2.5rem",
-                    borderRadius: "2rem",
-                    textAlign: "center",
-                    textShadow: "1px 1px 1px black",
-                  }}
+                  className="sign_up"
                 >
-                  Sign up
+                 Join now
                 </a>
               </li>
-              <li></li> */}
+              <li></li>
             </ul>
           </div>
         </div>

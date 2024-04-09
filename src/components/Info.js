@@ -31,7 +31,7 @@ function Info() {
             setDetail4(false);
           }}
         >
-          <p>About us</p>
+          <p>What we do</p>
         </div>
         <div
           className={detail3 ? "selected_ta" : "tab"}
@@ -62,13 +62,11 @@ function Info() {
             <img src={Pic1} alt="Pic" width="100%" height="100%" />
           </div>
           <div className="info_det">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Laboriosam, illo temporibus repellendus laudantium consequatur
-            cumque quas rem quos beatae voluptatum! Adipisci accusantium velit
-            facilis beatae, ratione sed, nobis laboriosam officiis a at maiores
-            minus nisi animi consectetur in. Quisquam nihil molestias optio!
-            Asperiores, impedit aspernatur distinctio doloremque commodi
-            voluptate quis?
+            At AfriVacx , We are passionate advocates for global health and
+            immunization. Founded with the mission to ensure that every
+            individual, regardless of their socioeconomic or geographical
+            location, has access to life saving vaccines. We believe in the
+            power of vaccination to protect communities and save lives...
           </div>
         </div>
       )}
@@ -78,13 +76,20 @@ function Info() {
             <img src={Pic2} alt="Pic" width="100%" height="100%" />
           </div>
           <div className="info_det">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Laboriosam, illo temporibus repellendus laudantium consequatur
-            cumque quas rem quos beatae voluptatum! Adipisci accusantium velit
-            facilis beatae, ratione sed, nobis laboriosam officiis a at maiores
-            minus nisi animi consectetur in. Quisquam nihil molestias optio!
-            Asperiores, impedit aspernatur distinctio doloremque commodi
-            voluptate quis?
+            <ul>
+              <li>
+                We ensure equitable access to life-saving vaccines across
+                Africa.
+              </li>
+              <li>
+                We advocate for equitable distribution of vaccines, regardless
+                of background or location.
+              </li>
+              <li>
+                Through targeted education campaigns and use of social media, we
+                increase awareness about the importance of vaccination.
+              </li>
+            </ul>
           </div>
         </div>
       )}
@@ -94,13 +99,10 @@ function Info() {
             <img src={Pic1} alt="Pic" width="100%" height="100%" />
           </div>
           <div className="info_det">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Laboriosam, illo temporibus repellendus laudantium consequatur
-            cumque quas rem quos beatae voluptatum! Adipisci accusantium velit
-            facilis beatae, ratione sed, nobis laboriosam officiis a at maiores
-            minus nisi animi consectetur in. Quisquam nihil molestias optio!
-            Asperiores, impedit aspernatur distinctio doloremque commodi
-            voluptate quis?
+            Our vision is a healthier, more resilient Africa where preventable
+            diseases are eradicated through equitable vaccine distribution and
+            comprehensive public awareness, fostering a brighter future for all
+            communities.
           </div>
         </div>
       )}
@@ -110,13 +112,11 @@ function Info() {
             <img src={Pic2} alt="Pic" width="100%" height="100%" />
           </div>
           <div className="info_det">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Laboriosam, illo temporibus repellendus laudantium consequatur
-            cumque quas rem quos beatae voluptatum! Adipisci accusantium velit
-            facilis beatae, ratione sed, nobis laboriosam officiis a at maiores
-            minus nisi animi consectetur in. Quisquam nihil molestias optio!
-            Asperiores, impedit aspernatur distinctio doloremque commodi
-            voluptate quis?
+            AfriVacx is dedicated to enhancing vaccine access, promoting equity,
+            driving advocacy, and raising awareness to improve immunization
+            rates across Africa. Our mission is to ensure that every individual,
+            regardless of their socioeconomic background or geographic location,
+            has access to life-saving vaccines.
           </div>
         </div>
       )}
